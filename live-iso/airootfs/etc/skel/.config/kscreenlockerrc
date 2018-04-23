@@ -10,4 +10,4 @@ Timeout=20
 WallpaperPlugin=org.kde.image
 
 [Greeter][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/wallpapers/Norcus_Background.png
+Image=file:///usr/share/wallpapers/NorcuxOS_Background.png

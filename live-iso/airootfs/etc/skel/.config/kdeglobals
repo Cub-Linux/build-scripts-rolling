@@ -150,7 +150,7 @@ DirSelectDialog Size=640,480
 History Items[$e]=file:$HOME
 
 [General]
-ColorScheme=Norcus
+ColorScheme=Norcux OS
 Name=Breeze
 XftAntialias=true
 XftHintStyle=hintmedium
