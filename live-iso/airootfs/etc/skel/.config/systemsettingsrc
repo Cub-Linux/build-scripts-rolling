@@ -1,0 +1,25 @@
+[ConfigDialog]
+Height 975=283
+Width 1920=294
+
+[DownloadDialog Settings]
+Height 844=522
+Height 975=522
+Width 1560=700
+Width 1920=700
+
+[KFileDialog Settings]
+Recent Files[$e]=Norcus_Background.png,file:///usr/share/wallpapers/Norcus_Background.png
+Recent URLs[$e]=file:///usr/share/wallpapers/
+
+[Main]
+ActiveView=icon_mode
+ShowToolTips=false
+
+[MainWindow]
+Height 975=481
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAABhgAAALqAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1920=957
+Window-Maximized 844x1560=true
