@@ -3,7 +3,7 @@
 
 # Global Property
 title-text: ""
-desktop-image: "Norcus_Background.png"
+desktop-image: "NorcuxOS_Background.png"
 desktop-color: "#000000"
 terminal-font: "Unifont Regular 16"
 terminal-box: "terminal_box_*.png"
