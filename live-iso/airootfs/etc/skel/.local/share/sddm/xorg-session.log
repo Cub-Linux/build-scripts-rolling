@@ -1,0 +1,19 @@
+startkde: Starting up...
+Failure: Module initialization failed
+OpenGL vendor string:                   VMware, Inc.
+OpenGL renderer string:                 llvmpipe (LLVM 5.0, 128 bits)
+OpenGL version string:                  3.0 Mesa 17.3.3
+OpenGL shading language version string: 1.30
+Driver:                                 LLVMpipe
+GPU class:                              Unknown
+OpenGL version:                         3.0
+GLSL version:                           1.30
+Mesa version:                           17.3.3
+X server version:                       1.19.6
+Linux kernel version:                   4.15.2
+Requires strict binding:                yes
+GLSL shaders:                           yes
+Texture NPOT support:                   yes
+Virtual Machine:                        no
+javaldx: Could not find a Java Runtime Environment!
+Warning: failed to read path from javaldx

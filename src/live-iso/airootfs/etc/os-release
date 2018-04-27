@@ -1,8 +1,0 @@
-NAME="Norcux OS"
-PRETTY_NAME="Norcux OS Alpha 0.3"
-ID=arch
-ID_LIKE=archlinux
-ANSI_COLOR="0;36"
-HOME_URL="https://NorcuxOS.org"
-SUPPORT_URL="https://bbs.archlinux.org/"
-BUG_REPORT_URL="https://bugs.archlinux.org/"

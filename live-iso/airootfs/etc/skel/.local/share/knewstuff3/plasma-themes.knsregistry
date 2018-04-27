@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="">
+  <name>Adapta KDE</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>x-varlesh-x</author>
+  <homepage>https://store.kde.org/p/1191695</homepage>
+  <licence></licence>
+  <version>20180201</version>
+  <rating>71</rating>
+  <downloads>3450</downloads>
+  <installedfile>/tmp/adapta-plasma.tar.xz</installedfile>
+  <id>1191695</id>
+  <releasedate>2018-02-01</releasedate>
+  <summary>Adapta KDE - This is a port of the popular GTK theme Adapta for Plasma 5 desktop with a few additions and extras.&lt;br />
+Breeze engine not supported!!!&lt;br />
+PLEASE USE THIS CUSTOMIZATION WITH KVANTUM ENGINE:&lt;br />
+https://www.opendesktop.org/p/1005410/&lt;br...</summary>
+  <changelog></changelog>
+  <preview>https://cn.pling.com/cache/100x100/img/2/4/7/0/76d5353fa081571df5723ae32be3d548d6c4.png</preview>
+  <previewBig>https://cn.pling.com/cache/770x540/img/2/4/7/0/76d5353fa081571df5723ae32be3d548d6c4.png</previewBig>
+  <payload>https://dl.opendesktop.org/api/files/downloadfile/id/1517466896/s/890b4a138b552b0d0f2c33ece62ea443/t/1518405928/o/1/adapta-plasma.tar.xz</payload>
+  <status>installed</status>
+ </stuff>
+</hotnewstuffregistry>

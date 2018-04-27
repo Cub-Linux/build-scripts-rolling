@@ -1,0 +1,4 @@
+[General]
+IgnoreSelection=true
+KeepClipboardContents=false
+PreventEmptyClipboard=false
