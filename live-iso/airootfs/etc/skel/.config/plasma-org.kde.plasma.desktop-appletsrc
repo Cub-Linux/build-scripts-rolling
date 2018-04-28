@@ -43,7 +43,7 @@ ToolBoxButtonX=1904
 showToolbox=false
 
 [Containments][1][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/wallpapers/NorcuxOS_Background.png
+Image=file:///usr/share/wallpapers/DarkestHour/contents/images/2560x1440.jpg
 
 [Containments][2]
 activityId=
