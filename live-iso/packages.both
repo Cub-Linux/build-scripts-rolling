@@ -56,7 +56,7 @@ zip
 unzip
 #virtualbox-guest-dkms
 #virtualbox-guest-utils
-linux-headers
+linux-lts-headers
 powerdevil
 lib32-mesa
 frei0r-plugins
@@ -65,11 +65,12 @@ openvpn
 openconnect
 networkmanager-openconnect
 
-
+linux-lts
 aurarchlinux-keyring
 pacaur
 grub-silent
 plymouth
+squashfs-tools
 
 # ArchISO
 base-devel
