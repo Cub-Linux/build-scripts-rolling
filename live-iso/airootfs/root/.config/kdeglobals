@@ -273,7 +273,7 @@ Size=22
 [WM]
 activeBackground=34,45,50
 activeBlend=34,45,50
-activeForeground=207,216,220
+activeForeground=255,255,255
 inactiveBackground=34,45,50
 inactiveBlend=34,45,50
 inactiveForeground=102,113,118
