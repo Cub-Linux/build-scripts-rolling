@@ -497,6 +497,8 @@
 0755:0:0:live-iso/airootfs/usr/share/about-distro
 0755:0:0:live-iso/airootfs/usr/share
 0644:0:0:live-iso/airootfs/usr/share/about-distro/distribution-logo.svg
+0644:0:0:live-iso/airootfs/usr/share/applications/Discord.desktop
+0644:0:0:live-iso/airootfs/usr/share/applications/steam-native.desktop
 0755:0:0:live-iso/airootfs/usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/components
 0755:0:0:live-iso/airootfs/usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents
 0755:0:0:live-iso/airootfs/usr/share/plasma/look-and-feel/org.kde.breeze.desktop
