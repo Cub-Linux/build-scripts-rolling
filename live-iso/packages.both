@@ -11,6 +11,7 @@ kscreen
 user-manager
 kde-gtk-config
 kinfocenter
+kdeconnect
 adapta-gtk-theme
 
 # Display Manager
@@ -56,6 +57,8 @@ unzip
 linux-headers
 powerdevil
 lib32-mesa
+frei0r-plugins
+sshfs
 
 aurarchlinux-keyring
 pacaur
