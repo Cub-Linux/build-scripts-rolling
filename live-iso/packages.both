@@ -60,6 +60,10 @@ powerdevil
 lib32-mesa
 frei0r-plugins
 sshfs
+openvpn
+openconnect
+networkmanager-openconnect
+
 
 aurarchlinux-keyring
 pacaur
