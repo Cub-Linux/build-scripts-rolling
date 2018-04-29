@@ -352,6 +352,8 @@
 0644:0:0:live-iso/airootfs/etc/skel/.local/share/user-places.xbel
 0750:0:0:live-iso/airootfs/etc/sudoers.d
 0644:0:0:live-iso/airootfs/etc/sudoers.d/g_wheel
+0755:0:0:live-iso/airootfs/etc/sysctl.d
+0644:0:0:live-iso/airootfs/etc/sysctl.d/50-coredump.conf
 0755:0:0:live-iso/airootfs/etc/systemd/scripts
 0755:0:0:live-iso/airootfs/etc/systemd
 0755:0:0:live-iso/airootfs/etc/systemd/scripts/choose-mirror
@@ -359,9 +361,6 @@
 0644:0:0:live-iso/airootfs/etc/systemd/system/choose-mirror.service
 0644:0:0:live-iso/airootfs/etc/systemd/system/etc-pacman.d-gnupg.mount
 0644:0:0:live-iso/airootfs/etc/systemd/system/pacman-init.service
-0755:0:0:live-iso/airootfs/etc/udev/rules.d
-0755:0:0:live-iso/airootfs/etc/udev
-0644:0:0:live-iso/airootfs/etc/udev/rules.d/81-dhcpcd.rules
 0755:0:0:live-iso/airootfs/etc/xdg
 0644:0:0:live-iso/airootfs/etc/xdg/kcm-about-distrorc
 0755:0:0:live-iso/airootfs/root
@@ -821,3 +820,4 @@
 0644:0:0:live-iso/syslinux/archiso_tail.cfg
 0644:0:0:live-iso/syslinux/splash.png
 0644:0:0:live-iso/syslinux/syslinux.cfg
+0755:0:0:mkarchiso

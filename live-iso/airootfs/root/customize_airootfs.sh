@@ -29,5 +29,5 @@ sed -i '/#TEMPORARY/,$d' /etc/pacman.conf
 cd /usr/share/sddm/themes/
 rm -rf Elarun Maldives maya
 cd /
-
+pacman -Rs linux
 systemctl enable pacman-init.service choose-mirror.service sddm NetworkManager systemd-timesyncd
