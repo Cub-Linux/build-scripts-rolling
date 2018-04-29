@@ -291,7 +291,7 @@
 0644:0:0:live-iso/airootfs/etc/skel/.config/networkmanagement.notifyrc
 0644:0:0:live-iso/airootfs/etc/skel/.config/plasma-localerc
 0600:0:0:live-iso/airootfs/etc/skel/.config/plasma-nm
-0600:0:0:live-iso/airootfs/etc/skel/.config/plasma-org.kde.plasma.desktop-appletsrc
+0644:0:0:live-iso/airootfs/etc/skel/.config/plasma-org.kde.plasma.desktop-appletsrc
 0600:0:0:live-iso/airootfs/etc/skel/.config/plasmarc
 0600:0:0:live-iso/airootfs/etc/skel/.config/plasmashellrc
 0644:0:0:live-iso/airootfs/etc/skel/.config/startupconfigfiles
@@ -299,6 +299,12 @@
 0600:0:0:live-iso/airootfs/etc/skel/.config/systemsettingsrc
 0600:0:0:live-iso/airootfs/etc/skel/.config/trashrc
 0644:0:0:live-iso/airootfs/etc/skel/.gtkrc-2.0
+0755:0:0:live-iso/airootfs/etc/skel/.kde-light
+0644:0:0:live-iso/airootfs/etc/skel/.kde-light/Trolltech.conf
+0644:0:0:live-iso/airootfs/etc/skel/.kde-light/gtkrc
+0644:0:0:live-iso/airootfs/etc/skel/.kde-light/gtkrc-2.0
+0600:0:0:live-iso/airootfs/etc/skel/.kde-light/kcmdisplayrc
+0600:0:0:live-iso/airootfs/etc/skel/.kde-light/kdeglobals
 0755:0:0:live-iso/airootfs/etc/skel/.kde4/share/apps/color-schemes
 0755:0:0:live-iso/airootfs/etc/skel/.kde4/share/apps
 0755:0:0:live-iso/airootfs/etc/skel/.kde4/share
@@ -313,10 +319,12 @@
 0755:0:0:live-iso/airootfs/etc/skel/.local/share/applications
 0755:0:0:live-iso/airootfs/etc/skel/.local/share
 0755:0:0:live-iso/airootfs/etc/skel/.local
+0755:0:0:live-iso/airootfs/etc/skel/.local/share/applications/Discord.desktop
 0644:0:0:live-iso/airootfs/etc/skel/.local/share/applications/avahi-discover.desktop
 0644:0:0:live-iso/airootfs/etc/skel/.local/share/applications/bssh.desktop
 0644:0:0:live-iso/airootfs/etc/skel/.local/share/applications/bvnc.desktop
 0644:0:0:live-iso/airootfs/etc/skel/.local/share/applications/qv4l2.desktop
+0755:0:0:live-iso/airootfs/etc/skel/.local/share/applications/steam-native.desktop
 0755:0:0:live-iso/airootfs/etc/skel/.local/share/aurorae/themes/Adapta
 0755:0:0:live-iso/airootfs/etc/skel/.local/share/aurorae/themes
 0755:0:0:live-iso/airootfs/etc/skel/.local/share/aurorae
@@ -497,8 +505,6 @@
 0755:0:0:live-iso/airootfs/usr/share/about-distro
 0755:0:0:live-iso/airootfs/usr/share
 0644:0:0:live-iso/airootfs/usr/share/about-distro/distribution-logo.svg
-0644:0:0:live-iso/airootfs/usr/share/applications/Discord.desktop
-0644:0:0:live-iso/airootfs/usr/share/applications/steam-native.desktop
 0755:0:0:live-iso/airootfs/usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/components
 0755:0:0:live-iso/airootfs/usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents
 0755:0:0:live-iso/airootfs/usr/share/plasma/look-and-feel/org.kde.breeze.desktop

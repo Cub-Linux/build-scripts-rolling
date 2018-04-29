@@ -1,0 +1,16 @@
+[Desktop Entry]
+Categories=Network;InstantMessaging;
+Comment=All-in-one voice and text chat for gamers that's free, secure, and works on both your desktop and phone.
+Exec=/usr/bin/discord
+GenericName=Internet Messenger
+Icon=discord
+Name=Discord
+NoDisplay=false
+Path[$e]=
+StartupNotify=false
+StartupWMClass=discord
+Terminal=0
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=
