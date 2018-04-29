@@ -255,12 +255,12 @@ while [ "x$list" != "x" ] ; do
 	boot_device_id="$(grub_get_device_id "${GRUB_DEVICE}")"
     fi
     # TRANSLATORS: %s is replaced with an OS name
-    echo "submenu '$(gettext_printf "Advanced options for %s" "${OS}" | grub_quote)' \$menuentry_id_option 'gnulinux-advanced-$boot_device_id' {"
+    #echo "submenu '$(gettext_printf "Advanced options for %s" "${OS}" | grub_quote)' \$menuentry_id_option 'gnulinux-advanced-$boot_device_id' {"
     is_top_level=false
   fi
 
-  linux_entry "${OS}" "${version}" advanced \
-              "${GRUB_CMDLINE_LINUX} ${GRUB_CMDLINE_LINUX_DEFAULT}"
+  #linux_entry "${OS}" "${version}" advanced \
+  #            "${GRUB_CMDLINE_LINUX} ${GRUB_CMDLINE_LINUX_DEFAULT}"
 
   if test -e "${dirname}/initramfs-${version}-fallback.img" ; then
     initrd="initramfs-${version}-fallback.img"
@@ -269,8 +269,8 @@ while [ "x$list" != "x" ] ; do
       gettext_printf "Found fallback initrd image(s) in %s:%s\n" "${dirname}" "${initrd_extra} ${initrd}" >&2
     fi
 
-    linux_entry "${OS}" "${version}" fallback \
-                "${GRUB_CMDLINE_LINUX} ${GRUB_CMDLINE_LINUX_DEFAULT}"
+    #linux_entry "${OS}" "${version}" fallback \
+    #            "${GRUB_CMDLINE_LINUX} ${GRUB_CMDLINE_LINUX_DEFAULT}"
   fi
 
   if [ "x${GRUB_DISABLE_RECOVERY}" != "xtrue" ]; then
@@ -283,8 +283,8 @@ done
 
 # If at least one kernel was found, then we need to
 # add a closing '}' for the submenu command.
-if [ x"$is_top_level" != xtrue ]; then
-  echo '}'
-fi
+#if [ x"$is_top_level" != xtrue ]; then
+#  echo '}'
+#fi
 
 echo "$title_correction_code"
