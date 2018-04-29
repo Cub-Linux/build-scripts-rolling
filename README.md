@@ -1,2 +1,3 @@
 ## Build Scripts
-You need to extract the .tar.xz archive.
+Copy "mkarchiso to /bin/
+To build an ISO Image execute "sudo ./build.sh -v" in the live-iso folder.
