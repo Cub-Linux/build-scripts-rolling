@@ -154,9 +154,9 @@ _pacman ()
     _msg_info "Installing packages to '${work_dir}/airootfs/'..."
 
     if [[ "${quiet}" = "y" ]]; then
-        pacman -Sg base | cut -d ' ' -f 2 | sed s/^linux\$/linux-lts/g | pacstrap -C "${pacman_conf}" -c -d -G -M "${work_dir}/airootfs" - $* &> /dev/null
+        pacstrap -C "${pacman_conf}" -c -d -G -M "${work_dir}/airootfs" $(pacman -Sqg base | sed 's/^linux$/&-lts/') $* &> /dev/null
     else
-        pacman -Sg base | cut -d ' ' -f 2 | sed s/^linux\$/linux-lts/g | pacstrap -C "${pacman_conf}" -c -d -G -M "${work_dir}/airootfs" - $*
+        pacstrap -C "${pacman_conf}" -c -d -G -M "${work_dir}/airootfs" $(pacman -Sqg base | sed 's/^linux$/&-lts/') $*
     fi
 
     _msg_info "Packages installed successfully!"
