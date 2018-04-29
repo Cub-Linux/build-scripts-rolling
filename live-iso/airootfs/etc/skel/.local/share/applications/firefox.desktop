@@ -1,0 +1,31 @@
+[Desktop Action new-private-window]
+Exec=/usr/lib/firefox/firefox --private-window %u
+Name[de_DE]=Neues privates Fenster
+Name=New Private Window
+
+[Desktop Action new-window]
+Exec=/usr/lib/firefox/firefox --new-window %u
+Name[de_DE]=Neues Fenster
+Name=New Window
+
+[Desktop Entry]
+Actions=new-window;new-private-window;
+Categories=Network;WebBrowser;
+Comment=Im Internet surfen
+Exec=env GTK_THEME=Adapta:light /usr/lib/firefox/firefox %u
+GenericName[de_DE]=Webbrowser
+GenericName=Web Browser
+Icon=firefox-alt
+Keywords=web;browser;internet;
+MimeType=text/html;text/xml;application/xhtml+xml;application/vnd.mozilla.xul+xml;text/mml;x-scheme-handler/http;x-scheme-handler/https;
+Name=Firefox
+NoDisplay=false
+Path[$e]=
+StartupNotify=true
+StartupWMClass=Firefox
+Terminal=0
+TerminalOptions=
+Type=Application
+Version=1.0
+X-KDE-SubstituteUID=false
+X-KDE-Username=
