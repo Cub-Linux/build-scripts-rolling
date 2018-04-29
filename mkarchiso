@@ -43,7 +43,7 @@ _msg_error() {
 
 _chroot_init() {
     mkdir -p ${work_dir}/airootfs
-    _pacman "base syslinux"
+    _pacman "$(pacman -Sqg base | sed 's/^linux$/&-lts/') syslinux"
 }
 
 _chroot_run() {
@@ -154,9 +154,9 @@ _pacman ()
     _msg_info "Installing packages to '${work_dir}/airootfs/'..."
 
     if [[ "${quiet}" = "y" ]]; then
-        pacstrap -C "${pacman_conf}" -c -d -G -M "${work_dir}/airootfs" $* --ignore linux linux-lts &> /dev/null
+        pacstrap -C "${pacman_conf}" -c -d -G -M "${work_dir}/airootfs" $* &> /dev/null
     else
-        pacstrap -C "${pacman_conf}" -c -d -G -M "${work_dir}/airootfs" $* --ignore linux linux-lts
+        pacstrap -C "${pacman_conf}" -c -d -G -M "${work_dir}/airootfs" $*
     fi
 
     _msg_info "Packages installed successfully!"
