@@ -23,13 +23,13 @@ sddm
 konsole
 kate
 firefox
-kwave
+#kwave
 networkmanager
 ark
 kcalc
 libreoffice-fresh
 libreoffice-fresh-de
-# papirus-libreoffice-theme
+#papirus-libreoffice-theme
 gwenview
 okular
 partitionmanager
@@ -38,7 +38,7 @@ spectacle
 juk
 isoimagewriter
 dragon
-gimp
+#gimp
 #inkscape
 #kdenlive
 #kmail
@@ -64,7 +64,6 @@ lib32-mesa
 #frei0r-plugins
 sshfs
 openvpn
-openconnect
 networkmanager-openconnect
 
 aurarchlinux-keyring
