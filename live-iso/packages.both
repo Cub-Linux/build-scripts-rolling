@@ -24,6 +24,7 @@ konsole
 kate
 firefox
 #kwave
+#k3b
 networkmanager
 ark
 kcalc
@@ -42,6 +43,7 @@ dragon
 #inkscape
 #kdenlive
 #kmail
+skanlite
 
 #discord
 #steam
@@ -60,7 +62,7 @@ unzip
 #virtualbox-guest-utils
 linux-lts-headers
 powerdevil
-lib32-mesa
+#lib32-mesa
 #frei0r-plugins
 sshfs
 openvpn
