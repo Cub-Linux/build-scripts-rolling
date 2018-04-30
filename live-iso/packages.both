@@ -39,12 +39,12 @@ juk
 isoimagewriter
 dragon
 gimp
-inkscape
-kdenlive
-kmail
+#inkscape
+#kdenlive
+#kmail
 
-discord
-steam
+#discord
+#steam
 
 
 # Xorg
@@ -61,7 +61,7 @@ unzip
 linux-lts-headers
 powerdevil
 lib32-mesa
-frei0r-plugins
+#frei0r-plugins
 sshfs
 openvpn
 openconnect
