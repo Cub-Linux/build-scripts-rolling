@@ -53,6 +53,8 @@ skanlite
 xorg-server
 
 # Misc
+calamares
+
 bash-completion
 xdg-user-dirs
 pulseaudio
