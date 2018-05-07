@@ -15,23 +15,26 @@
    version="1.1"
    id="svg8"
    inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
-   sodipodi:docname="distribution-logo.svg">
+   sodipodi:docname="distribution-logo.svg"
+   inkscape:export-filename="C:\Users\Björn\Downloads\distribution-logo.png"
+   inkscape:export-xdpi="384.00003"
+   inkscape:export-ydpi="384.00003">
   <defs
      id="defs2" />
   <sodipodi:namedview
      id="base"
-     pagecolor="#383838"
+     pagecolor="#1a1a1a"
      bordercolor="#666666"
      borderopacity="1.0"
-     inkscape:pageopacity="0.2745098"
+     inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.56"
-     inkscape:cx="172.19393"
-     inkscape:cy="4.472712"
-     inkscape:document-units="mm"
+     inkscape:zoom="10.24"
+     inkscape:cx="61.601473"
+     inkscape:cy="41.803543"
+     inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:pagecheckerboard="true"
+     inkscape:pagecheckerboard="false"
      units="px"
      showguides="true"
      inkscape:window-width="1920"
@@ -74,17 +77,15 @@
        cy="-280.06668"
        transform="scale(-1)"
        r="16.13792" />
-    <text
-       xml:space="preserve"
+    <g
+       aria-label="N"
+       transform="scale(1.0986301,0.91022447)"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.10763931px;line-height:1.25;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans';letter-spacing:0px;word-spacing:0px;fill:#00e9f2;fill-opacity:0.99215686;stroke:none;stroke-width:0.72769088"
-       x="4.6025338"
-       y="318.29944"
-       id="text1399"
-       transform="scale(1.0986301,0.91022447)"><tspan
-         sodipodi:role="line"
-         id="tspan1397"
-         x="4.6025338"
-         y="318.29944"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans';fill:#00e9f2;fill-opacity:0.99215686;stroke-width:0.72769088">N</tspan></text>
+       id="text1399">
+      <path
+         d="m 7.4592894,297.07986 h 3.8658586 l 9.408817,17.75168 v -17.75168 h 2.785692 v 21.21958 h -3.865859 l -9.408817,-17.75168 v 17.75168 H 7.4592894 Z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans';fill:#00e9f2;fill-opacity:0.99215686;stroke-width:0.72769088"
+         id="path817" />
+    </g>
   </g>
 </svg>
