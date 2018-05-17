@@ -69,6 +69,8 @@ powerdevil
 sshfs
 openvpn
 networkmanager-openconnect
+gst-libav
+gst-plugins-good
 
 aurarchlinux-keyring
 pacaur
