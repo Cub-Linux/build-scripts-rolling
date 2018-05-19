@@ -164,6 +164,7 @@ Theme=Papirus-Adapta-Nokto
 [KDE]
 ColorScheme=Breeze
 DoubleClickInterval=400
+LookAndFeelPackage=norcuxos
 ShowDeleteCommand=false
 SingleClick=false
 StartDragDist=4
