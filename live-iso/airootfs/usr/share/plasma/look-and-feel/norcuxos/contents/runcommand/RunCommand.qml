@@ -100,20 +100,22 @@ ColumnLayout {
                 if (length === 0) {
                     root.showHistory = true;
                     listView.forceActiveFocus();
-                } else {
+                } else if (results.count > 0) {
                     results.forceActiveFocus();
+                    results.decrementCurrentIndex();
                 }
             }
             Keys.onDownPressed: {
                 if (length === 0) {
                     root.showHistory = true;
                     listView.forceActiveFocus();
-                } else {
+                } else if (results.count > 0) {
                     results.forceActiveFocus();
+                    results.incrementCurrentIndex();
                 }
             }
-            Keys.onEnterPressed: results.runCurrentIndex()
-            Keys.onReturnPressed: results.runCurrentIndex()
+            Keys.onEnterPressed: results.runCurrentIndex(event)
+            Keys.onReturnPressed: results.runCurrentIndex(event)
 
             Keys.onEscapePressed: {
                 runnerWindow.visible = false
