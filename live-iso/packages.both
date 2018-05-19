@@ -71,6 +71,7 @@ openvpn
 networkmanager-openconnect
 gst-libav
 gst-plugins-good
+youtube-dl
 
 aurarchlinux-keyring
 pacaur
