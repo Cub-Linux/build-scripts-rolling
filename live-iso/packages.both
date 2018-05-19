@@ -57,7 +57,7 @@ xorg-server
 
 # Misc
 calamares
-upgrade-manager
+norcuxos-upgrade-manager
 
 bash-completion
 xdg-user-dirs
