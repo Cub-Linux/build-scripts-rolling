@@ -16,8 +16,11 @@ adapta-gtk-theme
 adapta-kde
 plasma-workspace-wallpapers
 
+norcuxos-plasma-look-and-feel
+
 # Display Manager
 sddm
+norcuxos-sddm-theme
 
 # Desktop Programs
 konsole
@@ -54,6 +57,7 @@ xorg-server
 
 # Misc
 calamares
+upgrade-manager
 
 bash-completion
 xdg-user-dirs
