@@ -1,2 +1,12 @@
+[1]
+Description=calamares
+clientmachine=localhost
+clientmachinematch=0
+size=1090,690
+sizerule=3
+wmclass=calamares
+wmclasscomplete=false
+wmclassmatch=1
+
 [General]
-count=0
+count=1
