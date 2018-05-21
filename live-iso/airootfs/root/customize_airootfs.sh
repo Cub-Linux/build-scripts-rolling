@@ -8,6 +8,8 @@ locale-gen
 ln -sf /usr/share/zoneinfo/UTC /etc/localtime
 
 useradd -m -G "wheel,audio,network" -s /bin/bash defaultuser
+mkdir -p /home/defaultuser/Desktop/
+cp /usr/share/applications/calamares.desktop /home/defaultuser/Desktop/
 
 usermod -s /usr/bin/bash root
 cp -aT /etc/skel/ /home/defaultuser/
