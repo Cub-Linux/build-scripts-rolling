@@ -54,6 +54,9 @@ location=4
 plugin=org.kde.panel
 wallpaperplugin=org.kde.image
 
+[Containments][2][Wallpaper][org.kde.image][General]
+Image=file:///usr/share/wallpapers/DarkestHour/contents/images/2560x1440.jpg
+
 [Containments][2][Applets][14]
 immutability=1
 plugin=org.kde.plasma.icontasks
