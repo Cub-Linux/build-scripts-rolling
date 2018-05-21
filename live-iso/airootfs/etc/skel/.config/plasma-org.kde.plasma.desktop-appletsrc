@@ -25,7 +25,7 @@ run associated application=false
 RightButton;NoModifier=org.kde.contextmenu
 
 [Containments][1]
-activityId=fedd0935-2431-44aa-8fa8-cb2ef62334a3
+activityId=
 formfactor=0
 immutability=1
 lastScreen=0
@@ -54,8 +54,6 @@ location=4
 plugin=org.kde.panel
 wallpaperplugin=org.kde.image
 
-[Containments][2][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/wallpapers/DarkestHour/contents/images/2560x1440.jpg
 
 [Containments][2][Applets][14]
 immutability=1
