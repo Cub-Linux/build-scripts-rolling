@@ -25,7 +25,7 @@ run associated application=false
 RightButton;NoModifier=org.kde.contextmenu
 
 [Containments][1]
-activityId=
+activityId=fedd0935-2431-44aa-8fa8-cb2ef62334a3
 formfactor=0
 immutability=1
 lastScreen=0
