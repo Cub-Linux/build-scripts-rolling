@@ -83,6 +83,8 @@ grub-silent
 plymouth
 squashfs-tools
 
+norcuxos-grub-theme
+
 # ArchISO
 base-devel
 
