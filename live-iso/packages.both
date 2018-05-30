@@ -84,6 +84,7 @@ plymouth
 squashfs-tools
 
 norcuxos-grub-theme
+norcuxos-plymouth-theme
 
 # ArchISO
 base-devel
