@@ -3,8 +3,8 @@
 set -e -u
 
 iso_name=norcuxos
-iso_label="Norcux_OS-Alpha_0.6.1" # $(date +%Y.%m.%d)"
-iso_version=Alpha_0.6.1
+iso_label="Norcux_OS-Alpha_0.6.2" # $(date +%Y.%m.%d)"
+iso_version=Alpha_0.6.2
 install_dir=arch
 work_dir=work
 out_dir=out
