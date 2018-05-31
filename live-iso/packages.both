@@ -82,6 +82,7 @@ pacaur
 grub-silent
 plymouth
 squashfs-tools
+update-grub
 
 norcuxos-grub-theme
 norcuxos-plymouth-theme
