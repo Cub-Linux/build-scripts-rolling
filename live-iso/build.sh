@@ -248,6 +248,7 @@ mkdir -p ${work_dir}
 
 wget https://repo.itmettke.de/aur/aur-archlinux/aurarchlinux-keyring.pkg.tar.xz
 pacman -U --needed aurarchlinux-keyring.pkg.tar.xz
+pacman -Scc --noconfirm
 
 cp ${script_path}/../mkarchiso /bin/
 
