@@ -246,6 +246,11 @@ done
 
 mkdir -p ${work_dir}
 
+wget https://repo.itmettke.de/aur/aur-archlinux/aurarchlinux-keyring.pkg.tar.xz
+pacman -U aurarchlinux-keyring.pkg.tar.xz
+
+cp ${script_path}/../mkarchiso /bin/
+
 run_once make_pacman_conf
 
 # Do all stuff for each airootfs
