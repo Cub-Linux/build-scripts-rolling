@@ -1,15 +1,5 @@
 ## Build Scripts
-Get the "aur-archlinux" Keyring:  
-```
-wget https://repo.itmettke.de/aur/aur-archlinux/aurarchlinux-keyring.pkg.tar.xz 
-pacman -U aurarchlinux-keyring.pkg.tar.xz 
-```
-  
-Then copy a script:  
-```
-cp mkarchiso /bin/
-```
-  
+
 To build an ISO Image execute:
 ```
 sudo ./build.sh -v" in the live-iso folder.
