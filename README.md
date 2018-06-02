@@ -7,7 +7,7 @@ pacman -U aurarchlinux-keyring.pkg.tar.xz
   
 Then copy a script:  
 ```
-cp mkarchiso to /bin/
+cp mkarchiso /bin/
 ```
   
 To build an ISO Image execute:
