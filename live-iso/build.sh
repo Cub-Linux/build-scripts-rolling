@@ -2,9 +2,10 @@
 
 set -e -u
 
+os_name="Norcux OS"
 iso_name=norcuxos
-iso_label="Norcux_OS-Alpha_0.6.2" # $(date +%Y.%m.%d)"
-iso_version=Alpha_0.6.2
+iso_version=Beta_0.1
+iso_label="Norcux_OS-${iso_version}"
 install_dir=arch
 work_dir=work
 out_dir=out
@@ -246,11 +247,15 @@ done
 
 mkdir -p ${work_dir}
 
-wget https://repo.itmettke.de/aur/aur-archlinux/aurarchlinux-keyring.pkg.tar.xz
-pacman -U --needed aurarchlinux-keyring.pkg.tar.xz
+wget -q https://repo.itmettke.de/aur/aur-archlinux/aurarchlinux-keyring.pkg.tar.xz
+pacman -U --noconfirm --needed aurarchlinux-keyring.pkg.tar.xz
 pacman -Scc --noconfirm
 
-cp ${script_path}/../mkarchiso /bin/
+sed -i "/PRETTY_NAME=/c\PRETTY_NAME=\"${os_name} ${iso_version//_/ }\"" airootfs/etc/os-release
+sed -i "/VERSION=/c\VERSION=\"${iso_version//_/ }\"" airootfs/etc/os-release
+sed -i "/Version=/c\Version=\"${iso_version//_/ }\"" airootfs/etc/xdg/kcm-about-distrorc
+
+cp ${script_path}/mkarchiso /bin/
 
 run_once make_pacman_conf
 
