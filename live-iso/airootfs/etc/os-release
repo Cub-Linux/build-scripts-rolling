@@ -1,6 +1,6 @@
 NAME="Norcux OS"
-PRETTY_NAME="Norcux OS Beta 0.1"
-VERSION="Beta 0.1"
+PRETTY_NAME="Norcux OS VERSION"
+VERSION="VERSION"
 ID=arch
 ID_LIKE=archlinux
 ANSI_COLOR="0;36"
