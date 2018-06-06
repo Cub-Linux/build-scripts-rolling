@@ -4,7 +4,7 @@ set -e -u
 
 os_name="Norcux OS"
 iso_name=norcuxos
-iso_version=Alpha_0.6.3
+iso_version=Alpha_0.6.4
 iso_label="Norcux_OS-${iso_version}"
 install_dir=arch
 work_dir=work
@@ -253,7 +253,7 @@ pacman -Scc --noconfirm
 
 sed -i "/PRETTY_NAME=/c\PRETTY_NAME=\"${os_name} ${iso_version//_/ }\"" airootfs/etc/os-release
 sed -i "/VERSION=/c\VERSION=\"${iso_version//_/ }\"" airootfs/etc/os-release
-sed -i "/Version=/c\Version=\"${iso_version//_/ }\"" airootfs/etc/xdg/kcm-about-distrorc
+sed -i "/Version=/c\Version=\${iso_version//_/ }\" airootfs/etc/xdg/kcm-about-distrorc
 
 cp ${script_path}/mkarchiso /bin/
 
