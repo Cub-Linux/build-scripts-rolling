@@ -78,6 +78,7 @@ squashfs-tools
 update-grub
 os-prober
 alsa-utils
+pulseaudio-alsa
 
 norcuxos-grub-theme
 norcuxos-plymouth-theme
