@@ -27,7 +27,7 @@ konsole
 kate
 firefox
 #kwave
-#k3b
+k3b
 networkmanager
 ark
 kcalc
@@ -77,6 +77,7 @@ plymouth
 squashfs-tools
 update-grub
 os-prober
+alsa-utils
 
 norcuxos-grub-theme
 norcuxos-plymouth-theme
