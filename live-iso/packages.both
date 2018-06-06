@@ -22,7 +22,7 @@ sddm
 norcuxos-sddm-theme
 
 # Desktop Programs
-norcuxos-upgrade-manager
+norcuxos-software-store
 konsole
 kate
 firefox
