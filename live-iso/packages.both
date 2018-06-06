@@ -15,7 +15,6 @@ kdeconnect
 adapta-gtk-theme
 adapta-kde
 plasma-workspace-wallpapers
-
 norcuxos-plasma-look-and-feel
 
 # Display Manager
@@ -23,6 +22,7 @@ sddm
 norcuxos-sddm-theme
 
 # Desktop Programs
+norcuxos-upgrade-manager
 konsole
 kate
 firefox
@@ -48,17 +48,11 @@ dragon
 #kmail
 skanlite
 
-#discord
-#steam
-
-
 # Xorg
 xorg-server
 
 # Misc
 calamares
-norcuxos-upgrade-manager
-
 bash-completion
 xdg-user-dirs
 pulseaudio
@@ -76,13 +70,13 @@ networkmanager-openconnect
 gst-libav
 gst-plugins-good
 youtube-dl
-
 aurarchlinux-keyring
 pacaur
 grub-silent
 plymouth
 squashfs-tools
 update-grub
+os-prober
 
 norcuxos-grub-theme
 norcuxos-plymouth-theme
