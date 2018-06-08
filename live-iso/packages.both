@@ -22,18 +22,17 @@ sddm
 norcuxos-sddm-theme
 
 # Desktop Programs
-norcuxos-software-store
+norcuxos-software-center
 konsole
 kate
 firefox
-#kwave
 k3b
 networkmanager
 ark
 kcalc
 libreoffice-fresh
 libreoffice-fresh-de
-#papirus-libreoffice-theme
+papirus-libreoffice-theme
 gwenview
 okular
 partitionmanager
@@ -42,10 +41,6 @@ spectacle
 juk
 isoimagewriter
 dragon
-#gimp
-#inkscape
-#kdenlive
-#kmail
 skanlite
 
 # Xorg
@@ -62,8 +57,6 @@ unzip
 #virtualbox-guest-utils
 linux-lts-headers
 powerdevil
-#lib32-mesa
-#frei0r-plugins
 sshfs
 openvpn
 networkmanager-openconnect
@@ -126,7 +119,7 @@ rsync
 sdparm
 sg3_utils
 smartmontools
-speedtouch
+#speedtouch
 sudo
 tcpdump
 testdisk
