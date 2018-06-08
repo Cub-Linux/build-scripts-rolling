@@ -13,7 +13,9 @@ usermod -s /usr/bin/bash root
 cp -aT /etc/skel/ /home/defaultuser/
 mkdir -p /home/defaultuser/Desktop/
 cp /usr/share/applications/calamares.desktop /home/defaultuser/Desktop/
+cp /usr/share/applications/calamares.desktop /home/defaultuser/.config/autostart/
 chmod +x /home/defaultuser/Desktop/calamares.desktop
+chmod +x /home/defaultuser/.config/autostart/calamares.desktop
 chmod 700 /root
 chown -R defaultuser:users /home/defaultuser/
 chfn -f "Default User" defaultuser
