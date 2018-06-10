@@ -2,5 +2,6 @@
 
 To build an ISO Image execute:
 ```
-sudo ./build.sh -v" in the live-iso folder.
+sudo ./build.sh -v
 ```
+in the live-iso folder.
