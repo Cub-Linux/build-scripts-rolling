@@ -22,10 +22,11 @@ sddm
 norcuxos-sddm-theme
 
 # Desktop Programs
+norcuxos-welcome-screen
 norcuxos-software-center
 konsole
 kate
-firefox
+firefox-kde-opensuse
 k3b
 networkmanager
 ark
@@ -64,7 +65,6 @@ networkmanager-openconnect
 gst-libav
 gst-plugins-good
 youtube-dl
-aurarchlinux-keyring
 pacaur
 grub-silent
 plymouth

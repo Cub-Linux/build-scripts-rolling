@@ -1,10 +1,10 @@
 [Desktop Action new-private-window]
-Exec=export XDG_CONFIG_HOME=$HOME/.kde-light && /usr/lib/firefox/firefox --private-window %u
+Exec=env GTK_THEME=Adapta-Eta:light /usr/lib/firefox/firefox --private-window %u
 Name[de_DE]=Neues privates Fenster
 Name=New Private Window
 
 [Desktop Action new-window]
-Exec=export XDG_CONFIG_HOME=$HOME/.kde-light && /usr/lib/firefox/firefox --new-window %u
+Exec=env GTK_THEME=Adapta-Eta:light /usr/lib/firefox/firefox --new-window %u
 Name[de_DE]=Neues Fenster
 Name=New Window
 
@@ -12,7 +12,7 @@ Name=New Window
 Actions=new-window;new-private-window;
 Categories=Network;WebBrowser;
 Comment=Im Internet surfen
-Exec=export XDG_CONFIG_HOME=$HOME/.kde-light && /usr/lib/firefox/firefox %u
+Exec=env GTK_THEME=Adapta-Eta:light /usr/lib/firefox/firefox %u
 GenericName[de_DE]=Webbrowser
 GenericName=Web Browser
 Icon=firefox-alt

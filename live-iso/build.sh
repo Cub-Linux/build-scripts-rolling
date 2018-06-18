@@ -4,7 +4,7 @@ set -e -u
 
 os_name="Norcux OS"
 iso_name=norcuxos
-iso_version=Alpha_0.6.4
+iso_version=Beta_0.1
 iso_label="Norcux_OS-${iso_version}"
 install_dir=arch
 work_dir=work
