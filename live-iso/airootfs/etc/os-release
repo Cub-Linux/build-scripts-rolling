@@ -4,6 +4,6 @@ VERSION="VERSION"
 ID=arch
 ID_LIKE=archlinux
 ANSI_COLOR="0;36"
-HOME_URL="https://NorcuxOS.org"
+HOME_URL="https://NorcuxOS.github.io"
 SUPPORT_URL="https://bbs.archlinux.org/"
 BUG_REPORT_URL="https://bugs.archlinux.org/"
