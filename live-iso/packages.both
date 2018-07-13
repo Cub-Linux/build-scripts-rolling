@@ -43,10 +43,11 @@ juk
 isoimagewriter
 dragon
 skanlite
-discord
 
 # Xorg
 xorg-server
+xf86-input-libinput
+xorg-xinput
 
 # Misc
 calamares

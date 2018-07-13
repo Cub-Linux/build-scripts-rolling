@@ -16,8 +16,8 @@
    id="svg8"
    inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
    sodipodi:docname="distribution-logo.svg"
-   inkscape:export-xdpi="384.00003"
-   inkscape:export-ydpi="384.00003">
+   inkscape:export-xdpi="768.00006"
+   inkscape:export-ydpi="768.00006">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -27,20 +27,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="10.24"
-     inkscape:cx="61.601473"
-     inkscape:cy="41.803543"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:pagecheckerboard="false"
      units="px"
      showguides="true"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1">
+     inkscape:window-width="806"
+     inkscape:window-height="416"
+     inkscape:window-x="377"
+     inkscape:window-y="234"
+     inkscape:window-maximized="0">
     <inkscape:grid
        type="xygrid"
        id="grid1376" />
@@ -63,14 +60,14 @@
      id="layer1"
      transform="translate(0,-263.13332)">
     <circle
-       style="opacity:1;vector-effect:none;fill:#13191f;fill-opacity:1;stroke:none;stroke-width:8.92625618;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;vector-effect:none;fill:#12272d;fill-opacity:1;stroke:none;stroke-width:8.92625618;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="path1380"
        cx="-16.933334"
        cy="-280.06665"
        transform="scale(-1)"
        r="16.668751" />
     <circle
-       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#00e9f2;stroke-width:1.59082425;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#00e0e8;stroke-width:1.59082425;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="path1380-3"
        cx="-16.933334"
        cy="-280.06668"
@@ -79,11 +76,11 @@
     <g
        aria-label="N"
        transform="scale(1.0986301,0.91022447)"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.10763931px;line-height:1.25;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans';letter-spacing:0px;word-spacing:0px;fill:#00e9f2;fill-opacity:0.99215686;stroke:none;stroke-width:0.72769088"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.10763931px;line-height:1.25;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans';letter-spacing:0px;word-spacing:0px;fill:#00e0e8;fill-opacity:0.99215686;stroke:none;stroke-width:0.72769088"
        id="text1399">
       <path
          d="m 7.4592894,297.07986 h 3.8658586 l 9.408817,17.75168 v -17.75168 h 2.785692 v 21.21958 h -3.865859 l -9.408817,-17.75168 v 17.75168 H 7.4592894 Z"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans';fill:#00e9f2;fill-opacity:0.99215686;stroke-width:0.72769088"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans';fill#00e0e8;fill-opacity:0.99215686;stroke-width:0.72769088"
          id="path817" />
     </g>
   </g>
