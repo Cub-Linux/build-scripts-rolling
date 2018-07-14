@@ -75,6 +75,7 @@ os-prober
 alsa-utils
 alsa-plugins
 pulseaudio-alsa
+accountsservice
 
 norcuxos-grub-theme
 norcuxos-plymouth-theme
