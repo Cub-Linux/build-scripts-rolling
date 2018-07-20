@@ -1,4 +1,4 @@
-## Build Scripts
+## Build Scripts for Norcux OS Rolling
 
 To build an ISO Image execute the following in the live-iso folder:
 ```
