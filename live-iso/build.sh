@@ -2,10 +2,10 @@
 
 set -e -u
 
-os_name="Norcux OS"
+os_name="Norcux OS Rolling"
 iso_name=norcuxos
 iso_version=Beta-0.1-1
-iso_label="NorcuxOS_${iso_version}"
+iso_label="Norcux_OS_Rolling_${iso_version}"
 install_dir=arch
 work_dir=work
 out_dir=out
