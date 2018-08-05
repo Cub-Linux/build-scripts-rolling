@@ -4,8 +4,8 @@ set -e -u
 
 os_name="Norcux OS Rolling"
 iso_name=norcuxos
-iso_version=Beta-0.1-1
-iso_label="Norcux_OS_Rolling_${iso_version}"
+iso_version=Alpha_0.7-1
+iso_label="Norcux_OS_Rolling-${iso_version}"
 install_dir=arch
 work_dir=work
 out_dir=out
