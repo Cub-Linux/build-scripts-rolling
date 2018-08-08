@@ -1,6 +1,6 @@
 NAME="Norcux OS"
-PRETTY_NAME="Norcux OS VERSION"
-VERSION="VERSION"
+PRETTY_NAME="Norcux OS Rolling Alpha 0.7"
+VERSION="Alpha 0.7"
 ID=arch
 ID_LIKE=archlinux
 ANSI_COLOR="0;36"

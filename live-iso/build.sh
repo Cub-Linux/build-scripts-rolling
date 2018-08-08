@@ -291,3 +291,5 @@ for arch in x86_64; do
 done
 
 run_once make_iso
+
+rm aurarchlinux-keyring.pkg.tar.xz
