@@ -4,8 +4,9 @@ set -e -u
 
 os_name="Norcux OS Rolling"
 iso_name=norcuxos
-iso_version=Alpha_0.7-1
-iso_label="Norcux_OS_Rolling-${iso_version}"
+iso_version=Alpha_0.7
+iso_refresh=1
+iso_label="Norcux_OS_Rolling-${iso_version}-${iso_refresh}"
 install_dir=arch
 work_dir=work
 out_dir=out
@@ -23,6 +24,8 @@ _usage ()
     echo "    -N <iso_name>      Set an iso filename (prefix)"
     echo "                        Default: ${iso_name}"
     echo "    -V <iso_version>   Set an iso version (in filename)"
+    echo "                        Default: ${iso_version}"
+    echo "    -R <iso_refresh>   Set an iso refresh number (in filename)"
     echo "                        Default: ${iso_version}"
     echo "    -L <iso_label>     Set an iso label (disk label)"
     echo "                        Default: ${iso_label}"
