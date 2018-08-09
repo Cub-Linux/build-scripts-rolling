@@ -1,9 +1,9 @@
-NAME="Norcux OS"
+NAME="Norcux OS Rollung"
 PRETTY_NAME="Norcux OS Rolling Alpha 0.7"
 VERSION="Alpha 0.7"
 ID=arch
 ID_LIKE=archlinux
 ANSI_COLOR="0;36"
 HOME_URL="https://NorcuxOS.github.io"
-SUPPORT_URL="https://bbs.archlinux.org/"
+SUPPORT_URL="https://NorcuxOS.github.io"
 BUG_REPORT_URL="https://bugs.archlinux.org/"

@@ -252,6 +252,8 @@ mkdir -p ${work_dir}
 
 wget -q https://repo.itmettke.de/aur/aur-archlinux/aurarchlinux-keyring.pkg.tar.xz
 pacman -U --noconfirm --needed aurarchlinux-keyring.pkg.tar.xz
+rm aurarchlinux-keyring.pkg.tar.xz*
+
 pacman -Scc --noconfirm
 
 sed -i "/PRETTY_NAME=/c\PRETTY_NAME=\"${os_name} ${iso_version//_/ }\"" airootfs/etc/os-release
@@ -291,5 +293,3 @@ for arch in x86_64; do
 done
 
 run_once make_iso
-
-rm aurarchlinux-keyring.pkg.tar.xz
