@@ -4,7 +4,7 @@ set -e -u
 
 os_name="Norcux OS Rolling"
 iso_name=norcuxos
-iso_version=Alpha_0.7
+iso_version=Alpha_0.1
 iso_refresh=1
 iso_label="Norcux_OS_Rolling-${iso_version}-${iso_refresh}"
 install_dir=arch
@@ -102,6 +102,10 @@ make_customize_airootfs() {
     curl -o ${work_dir}/${arch}/airootfs/etc/pacman.d/mirrorlist 'https://www.archlinux.org/mirrorlist/?country=all&protocol=http&use_mirror_status=on'
 
     #lynx -dump -nolist 'https://wiki.archlinux.org/index.php/Installation_Guide?action=render' >> ${work_dir}/${arch}/airootfs/root/install.txt
+
+    sed -i "/PRETTY_NAME=/c\PRETTY_NAME=\"${os_name} ${iso_version//_/ }\"" ${work_dir}/${arch}/airootfs/etc/os-release
+    sed -i "/VERSION=/c\VERSION=\"${iso_version//_/ }\"" ${work_dir}/${arch}/airootfs/etc/os-release
+    sed -i "/Version=/c\Version=${iso_version//_/ }" ${work_dir}/${arch}/airootfs/etc/xdg/kcm-about-distrorc
 
     setarch ${arch} mkarchiso ${verbose} -w "${work_dir}/${arch}" -C "${work_dir}/pacman.conf" -D "${install_dir}" -r '/root/customize_airootfs.sh' run
     rm ${work_dir}/${arch}/airootfs/root/customize_airootfs.sh
