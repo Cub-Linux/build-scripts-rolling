@@ -230,10 +230,11 @@ if [[ ${arch} != x86_64 ]]; then
     _usage 1
 fi
 
-while getopts 'N:V:L:D:w:o:g:vh' arg; do
+while getopts 'N:V:R:L:D:w:o:g:vh' arg; do
     case "${arg}" in
         N) iso_name="${OPTARG}" ;;
         V) iso_version="${OPTARG}" ;;
+        R) iso_refresh="${OPTARG}" ;;
         L) iso_label="${OPTARG}" ;;
         D) install_dir="${OPTARG}" ;;
         w) work_dir="${OPTARG}" ;;
