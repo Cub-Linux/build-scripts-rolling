@@ -263,10 +263,6 @@ rm aurarchlinux-keyring.pkg.tar.xz*
 
 pacman -Scc --noconfirm
 
-sed -i "/PRETTY_NAME=/c\PRETTY_NAME=\"${os_name} ${iso_version//_/ }\"" airootfs/etc/os-release
-sed -i "/VERSION=/c\VERSION=\"${iso_version//_/ }\"" airootfs/etc/os-release
-sed -i "/Version=/c\Version=${iso_version//_/ }" airootfs/etc/xdg/kcm-about-distrorc
-
 cp ${script_path}/mkarchiso /bin/
 
 run_once make_pacman_conf
