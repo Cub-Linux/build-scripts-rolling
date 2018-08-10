@@ -5,8 +5,8 @@ set -e -u
 os_name="Norcux OS Rolling"
 iso_name=norcuxos
 iso_version=Alpha_0.1
+#iso_label variable comes after the getopts function
 iso_refresh=1
-iso_label="Norcux_OS_Rolling-${iso_version}-${iso_refresh}"
 install_dir=arch
 work_dir=work
 out_dir=out
@@ -15,6 +15,37 @@ gpg_key=
 arch=$(uname -m)
 verbose=""
 script_path=$(readlink -f ${0%/*})
+
+if [[ ${EUID} -ne 0 ]]; then
+    echo "This script must be run as root."
+    _usage 1
+fi
+
+if [[ ${arch} != x86_64 ]]; then
+    echo "This script needs to be run on x86_64"
+    _usage 1
+fi
+
+while getopts 'N:V:R:L:D:w:o:g:vh' arg; do
+    case "${arg}" in
+        N) iso_name="${OPTARG}" ;;
+        V) iso_version="${OPTARG}" ;;
+        R) iso_refresh="${OPTARG}" ;;
+        L) iso_label="${OPTARG}" ;;
+        D) install_dir="${OPTARG}" ;;
+        w) work_dir="${OPTARG}" ;;
+        o) out_dir="${OPTARG}" ;;
+        g) gpg_key="${OPTARG}" ;;
+        v) verbose="-v" ;;
+        h) _usage 0 ;;
+        *)
+           echo "Invalid argument '${arg}'"
+           _usage 1
+           ;;
+    esac
+done
+
+iso_label="Norcux_OS_Rolling-${iso_version}-${iso_refresh}"
 
 _usage ()
 {
@@ -223,35 +254,6 @@ make_prepare() {
 make_iso() {
     mkarchiso ${verbose} -w "${work_dir}" -D "${install_dir}" -L "${iso_label}" -o "${out_dir}" iso "${iso_label}-x86_64.iso"
 }
-
-if [[ ${EUID} -ne 0 ]]; then
-    echo "This script must be run as root."
-    _usage 1
-fi
-
-if [[ ${arch} != x86_64 ]]; then
-    echo "This script needs to be run on x86_64"
-    _usage 1
-fi
-
-while getopts 'N:V:R:L:D:w:o:g:vh' arg; do
-    case "${arg}" in
-        N) iso_name="${OPTARG}" ;;
-        V) iso_version="${OPTARG}" ;;
-        R) iso_refresh="${OPTARG}" ;;
-        L) iso_label="${OPTARG}" ;;
-        D) install_dir="${OPTARG}" ;;
-        w) work_dir="${OPTARG}" ;;
-        o) out_dir="${OPTARG}" ;;
-        g) gpg_key="${OPTARG}" ;;
-        v) verbose="-v" ;;
-        h) _usage 0 ;;
-        *)
-           echo "Invalid argument '${arg}'"
-           _usage 1
-           ;;
-    esac
-done
 
 mkdir -p ${work_dir}
 
