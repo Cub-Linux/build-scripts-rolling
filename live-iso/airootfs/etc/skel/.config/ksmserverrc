@@ -1,26 +1,7 @@
 [General]
 confirmLogout=false
 excludeApps=
-loginMode=restorePreviousLogout
+loginMode=default
 offerShutdown=true
 screenCount=1
 shutdownType=0
-
-[LegacySession: saved at previous logout]
-count=0
-
-[Session: saved at previous logout]
-clientId1=10e3e27263000151837430100000006810004
-clientId2=10e3e27263000151837430100000006810005
-count=2
-discardCommand2[$e]=rm,$HOME/.config/session/kwin_10e3e27263000151837430100000006810005_1518374905_850986
-program1=pulseaudio
-program2=/usr/bin/kwin_x11
-restartCommand1=
-restartCommand2=/usr/bin/kwin_x11,-session,10e3e27263000151837430100000006810005_1518374905_850986
-restartStyleHint1=0
-restartStyleHint2=0
-userId1=defaultuser
-userId2=defaultuser
-wasWm1=false
-wasWm2=true
