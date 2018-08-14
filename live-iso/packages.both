@@ -87,7 +87,6 @@ arch-install-scripts
 b43-fwcutter
 btrfs-progs
 ddrescue
-dhclient
 dialog
 dmraid
 dnsmasq
