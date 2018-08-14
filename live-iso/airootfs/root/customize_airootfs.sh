@@ -32,8 +32,4 @@ sed -i 's/#\(HandleLidSwitch=\)suspend/\1ignore/' /etc/systemd/logind.conf
 
 sed -i '/#TEMPORARY/,$d' /etc/pacman.conf
 
-cd /usr/share/sddm/themes/
-rm -rf Elarun Maldives maya
-cd /
-
 systemctl enable pacman-init.service choose-mirror.service sddm NetworkManager systemd-timesyncd
