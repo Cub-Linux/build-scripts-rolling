@@ -33,3 +33,5 @@ sed -i 's/#\(HandleLidSwitch=\)suspend/\1ignore/' /etc/systemd/logind.conf
 sed -i '/#TEMPORARY/,$d' /etc/pacman.conf
 
 systemctl enable pacman-init.service choose-mirror.service sddm NetworkManager
+
+echo 'This is systemd anti-dumbassery hack. See systemd-update-done.service(8).' | tee /etc/.updated > /var/.updated
