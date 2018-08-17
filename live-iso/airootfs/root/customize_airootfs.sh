@@ -32,4 +32,4 @@ sed -i 's/#\(HandleLidSwitch=\)suspend/\1ignore/' /etc/systemd/logind.conf
 
 sed -i '/#TEMPORARY/,$d' /etc/pacman.conf
 
-systemctl enable pacman-init.service choose-mirror.service sddm NetworkManager systemd-timesyncd
+systemctl enable pacman-init.service choose-mirror.service sddm NetworkManager
