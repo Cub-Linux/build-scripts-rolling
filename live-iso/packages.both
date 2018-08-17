@@ -15,7 +15,7 @@ kdeconnect
 adapta-gtk-theme
 adapta-kde
 plasma-workspace-wallpapers
-norcuxos-plasma-look-and-feel
+norcuxos-plasma-theme
 
 # Display Manager
 sddm
@@ -76,7 +76,6 @@ alsa-utils
 alsa-plugins
 pulseaudio-alsa
 accountsservice
-
 norcuxos-grub-theme
 norcuxos-plymouth-theme
 
