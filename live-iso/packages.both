@@ -68,6 +68,7 @@ gst-plugins-good
 youtube-dl
 pacaur
 grub-silent
+plymouth
 squashfs-tools
 update-grub
 os-prober
@@ -77,6 +78,7 @@ pulseaudio-alsa
 accountsservice
 
 norcuxos-grub-theme
+norcuxos-plymouth-theme
 
 # ArchISO
 base-devel
