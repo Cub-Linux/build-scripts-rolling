@@ -15,6 +15,7 @@ kdeconnect
 adapta-gtk-theme
 adapta-kde
 plasma-workspace-wallpapers
+norcuxos-artwork
 norcuxos-plasma-theme
 
 # Display Manager
@@ -32,7 +33,7 @@ networkmanager
 ark
 kcalc
 libreoffice-fresh
-hunspell-en
+hunspell-en_US
 #papirus-libreoffice-theme
 gwenview
 okular
