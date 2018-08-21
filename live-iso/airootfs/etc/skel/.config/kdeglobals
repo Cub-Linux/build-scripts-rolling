@@ -1,5 +1,5 @@
 [$Version]
-update_info=fonts_global.upd:Fonts_Global,fonts_global_toolbar.upd:Fonts_Global_Toolbar
+update_info=fonts_global.upd:Fonts_Global,fonts_global_toolbar.upd:Fonts_Global_Toolbar,filepicker.upd:filepicker-remove-old-previews-entry
 
 [ColorEffects:Disabled]
 ChangeSelectionColor=
@@ -150,8 +150,8 @@ DirSelectDialog Size=640,480
 History Items[$e]=file:$HOME
 
 [General]
-ColorScheme=Norcux OS
-Name=Breeze
+ColorScheme=NorcuxOS
+Name=NorcuxOS
 XftAntialias=true
 XftHintStyle=hintmedium
 XftSubPixel=none
@@ -164,14 +164,14 @@ Theme=Papirus-Adapta-Nokto
 [KDE]
 ColorScheme=Breeze
 DoubleClickInterval=400
-LookAndFeelPackage=norcuxos
+LookAndFeelPackage=NorcuxOS
 ShowDeleteCommand=false
 SingleClick=false
 StartDragDist=4
 StartDragTime=500
 WheelScrollLines=3
 contrast=4
-widgetStyle=Breeze
+widgetStyle=breeze
 
 [KFileDialog Settings]
 Automatically select filename extension=true
@@ -179,7 +179,6 @@ Breadcrumb Navigation=true
 Decoration position=0
 LocationCombo Completionmode=5
 PathCombo Completionmode=5
-Previews=false
 Show Bookmarks=false
 Show Full Path=false
 Show Preview=false
