@@ -78,6 +78,7 @@ alsa-utils
 alsa-plugins
 pulseaudio-alsa
 accountsservice
+reflector
 norcuxos-grub-theme
 norcuxos-plymouth-theme
 
