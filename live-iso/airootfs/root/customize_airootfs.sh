@@ -17,7 +17,7 @@ cp /usr/share/applications/calamares.desktop /home/defaultuser/.config/autostart
 chmod +x /home/defaultuser/Desktop/calamares.desktop
 chmod +x /home/defaultuser/.config/autostart/calamares.desktop
 rm -rf /home/defaultuser/.config/autostart/welcome-screen.desktop
-chmod 700 /root
+chmod 750 /root
 chown -R defaultuser:users /home/defaultuser/
 chfn -f "Default User" defaultuser
 echo "defaultuser:default"|chpasswd
