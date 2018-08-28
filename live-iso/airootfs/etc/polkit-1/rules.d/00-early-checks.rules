@@ -1,7 +1,7 @@
-/* Allow users in admin group to run programs without authentication
+/* Allow live system user to run programs without authentication
 */
 polkit.addRule(function(action, subject) {
-    if (subject.isInGroup("wheel")) {
+    if (subject.user == "defaultuser" && subject.isInGroup("wheel")) {
         return polkit.Result.YES;
     }
 });
