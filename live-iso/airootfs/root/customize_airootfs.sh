@@ -11,6 +11,7 @@ useradd -m -G "wheel,audio,network" -s /bin/bash defaultuser
 
 usermod -s /usr/bin/bash root
 cp -aT /etc/skel/ /home/defaultuser/
+cp -aT /etc/skel/ /root/
 mkdir -p /home/defaultuser/Desktop/
 cp /usr/share/applications/calamares.desktop /home/defaultuser/Desktop/
 cp /usr/share/applications/calamares.desktop /home/defaultuser/.config/autostart/
