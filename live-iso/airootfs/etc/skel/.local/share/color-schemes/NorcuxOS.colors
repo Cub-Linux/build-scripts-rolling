@@ -70,7 +70,7 @@ ForegroundInactive=102,113,118
 ForegroundLink=0,188,212
 ForegroundNegative=218,68,83
 ForegroundNeutral=246,116,0
-ForegroundNormal=255,255,255
+ForegroundNormal=207,216,220
 ForegroundPositive=0,150,136
 ForegroundVisited=0,188,212
 
@@ -84,7 +84,7 @@ ForegroundInactive=102,113,118
 ForegroundLink=0,188,212
 ForegroundNegative=218,68,83
 ForegroundNeutral=246,116,0
-ForegroundNormal=255,255,255
+ForegroundNormal=207,216,220
 ForegroundPositive=0,150,136
 ForegroundVisited=0,188,212
 
@@ -98,13 +98,13 @@ ForegroundInactive=102,113,118
 ForegroundLink=0,188,212
 ForegroundNegative=218,68,83
 ForegroundNeutral=246,116,0
-ForegroundNormal=255,255,255
+ForegroundNormal=207,216,220
 ForegroundPositive=0,150,136
 ForegroundVisited=0,188,212
 
 [General]
 ColorScheme=Adapta Nokto
-Name=NorcuxOS
+Name=Norcux OS
 shadeSortColumn=true
 
 [KDE]
@@ -113,7 +113,7 @@ contrast=4
 [WM]
 activeBackground=34,45,50
 activeBlend=34,45,50
-activeForeground=255,255,255
+activeForeground=207,216,220
 inactiveBackground=34,45,50
 inactiveBlend=34,45,50
 inactiveForeground=102,113,118
