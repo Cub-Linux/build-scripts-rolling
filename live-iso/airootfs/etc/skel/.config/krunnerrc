@@ -4,6 +4,7 @@ LaunchCounts=
 [Plugins]
 Kill RunnerEnabled=true
 PowerDevilEnabled=true
+krunner_appstreamEnabled=false
 appstreamrunnerEnabled=false
 baloosearchEnabled=true
 bookmarksEnabled=true
