@@ -137,6 +137,8 @@ make_customize_airootfs() {
     sed -i "/PRETTY_NAME=/c\PRETTY_NAME=\"${os_name} ${iso_version//_/ }\"" ${work_dir}/${arch}/airootfs/etc/os-release
     sed -i "/VERSION=/c\VERSION=\"${iso_version//_/ }\"" ${work_dir}/${arch}/airootfs/etc/os-release
     sed -i "/Version=/c\Version=${iso_version//_/ }" ${work_dir}/${arch}/airootfs/etc/xdg/kcm-about-distrorc
+    
+    cp ${script_path}/pacman.conf ${work_dir}/${arch}/airootfs/etc/
 
     setarch ${arch} mkarchiso-lts ${verbose} -w "${work_dir}/${arch}" -C "${work_dir}/pacman.conf" -D "${install_dir}" -r '/root/customize_airootfs.sh' run
     rm ${work_dir}/${arch}/airootfs/root/customize_airootfs.sh
