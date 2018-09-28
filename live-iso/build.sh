@@ -24,7 +24,7 @@ fi
 
 umask 0022
 
-while getopts 'N:V:L:P:A:D:w:o:g:vh' arg; do
+while getopts 'N:V:R:L:P:A:D:w:o:g:vh' arg; do
     case "${arg}" in
         N) iso_name="${OPTARG}" ;;
         V) iso_version="${OPTARG}" ;;
