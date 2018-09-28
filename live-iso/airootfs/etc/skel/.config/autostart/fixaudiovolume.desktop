@@ -1,7 +1,7 @@
 [Desktop Entry]
-Comment=Fixes the volume on first boot
+Comment=Fixes the audio volume on first login
 Exec=/usr/bin/fixaudiovolume.sh
-Name=Fix PulseAudio Volume
+Name=Fix audio volume
 NoDisplay=true
 StartupNotify=false
 Type=Application

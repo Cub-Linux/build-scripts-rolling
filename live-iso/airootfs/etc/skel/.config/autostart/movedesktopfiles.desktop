@@ -1,0 +1,7 @@
+[Desktop Entry]
+Comment=Moves files to the desktop directory on first login
+Exec=/usr/bin/movedesktopfiles.sh
+Name=Move desktop files
+NoDisplay=true
+StartupNotify=false
+Type=Application
