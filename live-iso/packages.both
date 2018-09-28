@@ -26,7 +26,7 @@ norcuxos-sddm-theme
 
 # Desktop Programs
 norcuxos-welcome-screen
-norcuxos-software-center
+norcuxos-app-center
 konsole
 kate
 firefox-kde-opensuse
