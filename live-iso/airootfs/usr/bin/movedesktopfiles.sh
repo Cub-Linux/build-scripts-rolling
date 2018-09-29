@@ -1,4 +1,4 @@
 #!/bin/sh
-desktoppath=$(xdg-user-dir DESKTOP)
+desktoppath="$(xdg-user-dir DESKTOP)"
 mv ~/{Home.desktop,trash.desktop} "$desktoppath"
-rm .config/autostart/movedesktopfiles.desktop
+rm ~/.config/autostart/movedesktopfiles.desktop
