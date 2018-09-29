@@ -69,7 +69,7 @@ networkmanager-openconnect
 gst-libav
 gst-plugins-good
 youtube-dl
-pacaur
+yay
 grub-silent
 squashfs-tools
 update-grub
