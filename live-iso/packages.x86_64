@@ -81,6 +81,7 @@ pulseaudio-alsa
 accountsservice
 reflector
 norcuxos-grub-theme
+gtk3-mushrooms
 
 # ArchISO
 base-devel
