@@ -1,7 +1,7 @@
 /* Allow live system user to run programs without authentication
 */
 polkit.addRule(function(action, subject) {
-    if (subject.user == "defaultuser" && subject.isInGroup("wheel")) {
+    if (subject.user == "defaultuser") {
         return polkit.Result.YES;
     }
 });
