@@ -30,7 +30,6 @@ function configRootUser() {
 function createLiveUser() {
     # Add live user
     useradd -m -G "wheel,audio,network" -s /bin/bash defaultuser
-    chown -R defaultuser:users /home/defaultuser/
     chfn -f "Default User" defaultuser
     echo "defaultuser:default" | chpasswd
 }
@@ -43,6 +42,7 @@ function configureLiveUser() {
     chmod +x /home/defaultuser/Desktop/calamares.desktop
     chmod +x /home/defaultuser/.config/autostart/calamares.desktop
     rm -rf /home/defaultuser/.config/autostart/welcome-screen.desktop
+    chown -R defaultuser:users /home/defaultuser/
 }
 
 function miscConfigs() {
