@@ -115,7 +115,7 @@ smallestReadableFont=Noto Sans,10,-1,5,50,0,0,0,0,0,Regular
 toolBarFont=Noto Sans,10,-1,5,50,0,0,0,0,0,Regular
 
 [Icons]
-Theme=NorcuxOS-dark
+Theme=NorcuxOS-Dark
 
 [KDE]
 ColorScheme=Norcux OS
