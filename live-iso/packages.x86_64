@@ -80,7 +80,6 @@ gst-libav
 gst-plugins-good
 youtube-dl
 yay
-grub-silent
 squashfs-tools
 update-grub
 os-prober
