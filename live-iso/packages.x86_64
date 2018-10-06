@@ -60,6 +60,7 @@ arch-install-scripts
 ntfs-3g
 exfat-utils
 grub
+efibootmgr
 parted
 rsync
 sudo
